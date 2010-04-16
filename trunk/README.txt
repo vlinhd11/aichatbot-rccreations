@@ -1,0 +1,1 @@
+To get started, you can downlaod the user manual provided under "Downloads" section of the project hosting.
