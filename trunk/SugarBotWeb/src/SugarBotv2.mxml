@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:mx="library://ns.adobe.com/flex/halo" 
+	minWidth="1024" minHeight="768">
+
+	<fx:Script>
+		<![CDATA[
+			// Necessary imports
+			import flash.net.NetConnection;
+		    import flash.net.Responder;
+		    import mx.controls.Alert;
+		    
+		    // Gateway connection object
+	        public var gateway:NetConnection;
+			
+			// Action Handler for the Button object with id: sendButton
+			// This method gets called whenever the sendButton gets activated using a mouse-click event.
+			// It creates a gateway connection object and invokes it to connect to localhost on port 8000. 
+			// It then makes a call to the 'bot' service which is running on the Python based server and transfers control 
+			// to the responder object which specifies what to do when there is a desired result.
+			private function sendButton_clickHandler(event:MouseEvent):void
+			{
+				
+				// Input cannot be empty before activating the sendButton. The following condition checks that 
+				// requirement and makes an alert notification to the user.
+				if((input.text=="")||(input.text==" "))
+				{
+					Alert.show("Your Input cannot be empty");			
+				}
+				else
+				{
+					// creates a gateway object.
+					gateway = new NetConnection();
+	
+	            	// gateway object connects to the localhost on port 8000. 
+	            	gateway.connect( "http://localhost:8000" );
+					
+					log.text = log.text + "\n\n" + "You said: " + input.text;
+					
+					// defining a responder object.
+					var responder:Responder = new Responder( onResult, onFault );
+	            	            	
+	            	//gateway object makes a call to the 'bot' service which is running on a Python based server.
+					gateway.call( "bot", responder, input.text );
+	            
+				}
+			}
+			
+			// This method is called when there is a result for the question asked by the user.
+			private function onResult( result:* ): void
+	        {
+	            var resultString:String = result;
+	            input.text = "";
+	            log.text = log.text + "\n\n" + "Bot said: " + resultString;
+	         
+	        }
+	        
+	        // This method is called when there is a fault/error while connecting to the bot service or the gateway object 
+			// is unable to receive the response from the server. It provides and alert notification to the user and specifies
+			// him the error description. 
+			private function onFault( error:* ): void
+	        {
+	            var errorString:String;
+	            for ( var d:String in error ) {
+	               errorString += error[d] + "\n";
+	            }
+	            
+	            Alert.show(errorString);
+	        }
+
+		]]>
+	</fx:Script>
+
+			
+	<s:Panel x="257" y="131" width="557" height="150" title="Input">
+		<s:TextInput x="67" y="43" width="363" id="input"/>
+		<s:Button x="436" y="43" label="Send" id="sendButton"
+			click="sendButton_clickHandler(event)"/>
+	</s:Panel>
+	<s:Panel x="255" y="311" width="559" height="249" title="Log">
+		<s:TextArea x="-1" y="1" width="560" height="214" id="log"/>
+	</s:Panel>
+	<s:Label x="456" y="84" text="Sugar CRM Bot &#xd;" fontSize="20"/>
+	
+</s:Application>

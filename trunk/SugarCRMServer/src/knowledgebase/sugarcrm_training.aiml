@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+
+
+
+<category><pattern>END USERS NEED ACCOUNT</pattern><template>An account at www.sugarcrm.com is only required for submitting support cases and signing up for Sugar University learning sessions.
+Your end users do not need a user account to access the Online Library for Sugar University, read documentation or discuss on Sugar Forums.
+</template></category>
+<category><pattern>_ END USERS * ACCOUNT * TRAINING</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNT * SUPPORT</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNT * TRAINING *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNT * SUPPORT *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNTS * TRAINING</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNTS * SUPPORT</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNTS * TRAINING *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USERS * ACCOUNTS * SUPPORT *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNT * TRAINING</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNT * SUPPORT</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNT * TRAINING *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNT * SUPPORT *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNTS * TRAINING</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNTS * SUPPORT</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNTS * TRAINING *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+<category><pattern>_ END USER * ACCOUNTS * SUPPORT *</pattern><template><srai>END USERS NEED ACCOUNT</srai></template></category>
+
+<category><pattern>SUGAR LEARNING CREDITS</pattern><template>Sugar Learning Credits (SLC) provide an easy and convenient way for your company to purchase training for your employees, minimize administrative paperwork, enable easy tracking of employee usage and ensure that you receive a discount for buying learning sessions in bulk.</template></category>
+<category><pattern>WHAT ARE SUGAR LEARNING CREDITS</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * BENEFITS</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ BENEFITS * SUGAR LEARNING CREDITS</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * BENEFITS *</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ BENEFITS * SUGAR LEARNING CREDITS *</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ ABOUT SUGAR LEARNING CREDITS</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ ABOUT SUGAR LEARNING CREDITS *</pattern><template><srai>SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>COST OF SUGAR LEARNING CREDITS</pattern><template>Sugar Learning Credits cost $30 per credit, less any discount, if applicable. If you buy 50-99 credits, each credit will cost you $28.50 and if you buy over 100 credits, each credit will cost you $27.</template></category>
+
+<category><pattern>_ COST * SUGAR LEARNING CREDITS</pattern><template><srai>COST OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ COST * SUGAR LEARNING CREDITS *</pattern><template><srai>COST OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING CREDITS</pattern><template><srai>COST OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING CREDITS *</pattern><template><srai>COST OF SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>PURCHASE SUGAR LEARNING CREDITS</pattern><template>Click on the Purchase Sugar Learning Credits link on the Sugar University Learning Sessions page or contact your SugarCRM sales representative to purchase Sugar Learning Credits.</template></category>
+<category><pattern>_ PURCHASE SUGAR LEARNING CREDITS</pattern><template><srai>PURCHASE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ PURCHASE SUGAR LEARNING CREDITS *</pattern><template><srai>PURCHASE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>WHERE CAN I GET SUGAR LEARNING CREDITS FROM</pattern><template><srai>PURCHASE SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>ORDER NUMBER FOR SUGAR LEARNING CREDITS</pattern><template>An Order number is required to register for a learning session.
+To view the Order number:
+1.Go to http://support.sugarcrm.com
+2.Click View Orders
+3.Select the Order number from the column
+4.Enter this number into the Learning Session registration page.
+</template></category>
+<category><pattern>_ ORDER NUMBER * SUGAR LEARNING CREDITS</pattern><template><srai>ORDER NUMBER FOR SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ ORDER NUMBER * SUGAR LEARNING CREDITS *</pattern><template><srai>ORDER NUMBER FOR SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>VALIDITY OF SUGAR LEARNING CREDITS</pattern><template>Sugar Learning Credits are valid for one year from the date of purchase, unless otherwise specified.</template></category>
+<category><pattern>_ VALIDITY * SUGAR LEARNING CREDITS</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS EXPIRE</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS VALID</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ VALIDITY * SUGAR LEARNING CREDITS *</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS EXPIRE *</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS VALID *</pattern><template><srai>VALIDITY OF SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>WHO USE SUGAR LEARNING CREDITS</pattern><template>Anyone that is given access to the Sugar Learning Credit Order number for your company may use it to register for Sugar University learning sessions.</template></category>
+<category><pattern>WHO * USE SUGAR LEARNING CREDITS</pattern><template><srai>WHO USE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>WHO * USE SUGAR LEARNING CREDITS *</pattern><template><srai>WHO USE SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>SHARE SUGAR LEARNING CREDITS</pattern><template>Yes, anyone that is given access to the Sugar Learning Credit Order number for your company may use it to register for Sugar University learning sessions.</template></category>
+<category><pattern>_ SHARE SUGAR LEARNING CREDITS</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SHARE SUGAR LEARNING CREDITS *</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SHARE * SUGAR LEARNING CREDITS</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SHARE * SUGAR LEARNING CREDITS *</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SHARING * SUGAR LEARNING CREDITS *</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SHARING * SUGAR LEARNING CREDITS</pattern><template><srai>SHARE SUGAR LEARNING CREDITS</srai></template></category>
+
+
+<category><pattern>SUGAR LEARNING CREDITS NOT USED</pattern><template>Credits that are not used by the end of the Sugar Learning Credits expiration date are forfeited.</template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT USED</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT  * USED</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT USED *</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT  * USED *</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT USE</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * NOT USE *</pattern><template><srai>SUGAR LEARNING CREDITS NOT USED</srai></template></category>
+
+<category><pattern>BALANCE OF SUGAR LEARNING CREDITS</pattern><template>Once you are logged into Sugar University, your company's total active balance of Sugar Learning Credits is available on the Learning Sessions page.</template></category>
+<category><pattern>_ BALANCE</pattern><template><srai>BALANCE OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ BALANCE * </pattern><template><srai>BALANCE OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * REMAINING</pattern><template><srai>BALANCE OF SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING CREDITS * REMAINING *</pattern><template><srai>BALANCE OF SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>ENROLL AFTER SUGAR LEARNING CREDITS EXPIRE</pattern><template>No. Sugar Learning Credits are only good through the expiration of date of the agreement.</template></category>
+<category><pattern>_ ENROLL * AFTER SUGAR LEARNING CREDITS EXPIRE</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER VALIDITY * SUGAR LEARNING CREDITS</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER SUGAR LEARNING CREDITS EXPIRE *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER VALIDITY * SUGAR LEARNING CREDITS *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER SUGAR LEARNING CREDITS EXPIRE</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER VALIDITY * SUGAR LEARNING CREDITS</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER SUGAR LEARNING CREDITS EXPIRE *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER VALIDITY * SUGAR LEARNING CREDITS *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER * SUGAR LEARNING CREDITS EXPIRE</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER * VALIDITY * SUGAR LEARNING CREDITS</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER * SUGAR LEARNING CREDITS EXPIRE *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ ENROLL * AFTER * VALIDITY * SUGAR LEARNING CREDITS *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER * SUGAR LEARNING CREDITS EXPIRE</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER * VALIDITY * SUGAR LEARNING CREDITS</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER * SUGAR LEARNING CREDITS EXPIRE *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+<category><pattern>_ REGISTER * AFTER * VALIDITY * SUGAR LEARNING CREDITS *</pattern><template><srai>ENROL AFTER SUGAR LEARNING CREDITS EXPIRE</srai></template></category>
+
+<category><pattern>DONT HAVE SUFFICIENT FUNDS IN SUGAR LEARNING CREDITS</pattern><template>The person designated by your company to manage the Sugar Learning Credits should contact their SugarCRM sales representative to purchase more Sugar Learning Credits.</template></category>
+<category><pattern>_ FUNDS * SUGAR LEARNING CREDITS</pattern><template><srai>DONT HAVE SUFFICIENT FUNDS IN SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ RUNNING SHORT * SUGAR LEARNING CREDITS</pattern><template><srai>DONT HAVE SUFFICIENT FUNDS IN SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ FUNDS * SUGAR LEARNING CREDITS *</pattern><template><srai>DONT HAVE SUFFICIENT FUNDS IN SUGAR LEARNING CREDITS</srai></template></category>
+<category><pattern>_ RUNNING SHORT * SUGAR LEARNING CREDITS *</pattern><template><srai>DONT HAVE SUFFICIENT FUNDS IN SUGAR LEARNING CREDITS</srai></template></category>
+
+<category><pattern>SUGAR LEARNING CREDITS TERMS AND CONDITIONS</pattern><template>1.Sugar Learning Credits are valid for one year from the date of purchase unless otherwise specified.
+2.Sugar Learning Credits are non-refundable.
+3.Sugar Learning Credits can be redeemed for any Sugar University learning session that concludes before or on the day of your Sugar Learning Credit expiration date.
+4.To spend Sugar Learning Credits you will need the Order number from a previous Sugar purchase for your order.
+5.Anyone that is given access to the Learning Credit Order number for your company may use it to register for a Sugar University learning session.
+6.Your company controls access to your Sugar Learning Credits Order number. We suggest you appoint one person as the Sugar Learning Credit manager.
+</template></category>
+
+<category><pattern>_ TERMS AND CONDITIONS</pattern><template><srai>SUGAR LEARNING CREDITS TERMS AND CONDITIONS</srai></template></category>
+<category><pattern>_ TERMS AND CONDITIONS *</pattern><template><srai>SUGAR LEARNING CREDITS TERMS AND CONDITIONS</srai></template></category>
+
+
+<category><pattern>COST OF SUGAR LEARNING SESSIONS</pattern><template>Sugar University learning sessions require Sugar Learning Credits, which are available from your Sales Representative.</template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSION COST</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ COST * SUGAR LEARNING SESSION</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSION COST *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ COST * SUGAR LEARNING SESSION *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSION *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSIONS COST</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ COST * SUGAR LEARNING SESSIONS</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSIONS COST *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ COST * SUGAR LEARNING SESSIONS *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>HOW MUCH * SUGAR LEARNING SESSIONS *</pattern><template><srai>COST OF SUGAR LEARNING SESSIONS</srai></template></category>
+
+<category><pattern>REGISTER FOR SUGAR LEARNING SESSIONS</pattern><template>To register for a Sugar University Learning Session:
+1.Go to http://university.sugarcrm.com.
+2.Click on Sign Up for Public Learning Sessions.
+3.Locate the specific session you want.
+4.Enter the Order number for your Sugar Learning Credits
+5.Click Sign Up
+6.Enter your details on the registration page and click Register Now.
+</template></category>
+
+<category><pattern>_ REGISTER * SUGAR LEARNING SESSION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLL * SUGAR LEARNING SESSION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTER * SUGAR LEARNING SESSION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLL * SUGAR LEARNING SESSION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTERING * SUGAR LEARNING SESSION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLLING * SUGAR LEARNING SESSION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTERING * SUGAR LEARNING SESSION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLLING * SUGAR LEARNING SESSION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSION REGISTRATION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSION ENROLMENT</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSION REGISTRATION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSION ENROLMENT *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTER * SUGAR LEARNING SESSIONS</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLL * SUGAR LEARNING SESSIONS</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTER * SUGAR LEARNING SESSIONS *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLL * SUGAR LEARNING SESSIONS *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTERING * SUGAR LEARNING SESSIONS</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLLING * SUGAR LEARNING SESSIONS</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ REGISTERING * SUGAR LEARNING SESSIONS *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ ENROLLING * SUGAR LEARNING SESSIONS *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSIONS REGISTRATION</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSIONS ENROLMENT</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSIONS REGISTRATION *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ SUGAR LEARNING SESSIONS ENROLMENT *</pattern><template><srai>REGISTER FOR SUGAR LEARNING SESSIONS</srai></template></category>
+
+
+<category><pattern>WITHDRAWING FROM SUGAR LEARNING SESSIONS</pattern><template>You can withdraw from an on-line public learning session that requires Sugar Learning Credits up to two business dates prior to the session start date and retain your Sugar Learning Credits.*
+To withdraw from an on-line public session that requires Sugar Learning Credits, please submit a case via the Support Portal:
+1.Select Request Type: University Support
+2.Enter Withdrawal in the Subject field
+3.In the Description field include the name and date of the learning session you wish to withdraw from.
+</template></category>
+<category><pattern>_ WITHDRAW * LEARNING SESSION</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAW * LEARNING SESSION *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWING * LEARNING SESSION</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWING * LEARNING SESSION *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWAL * LEARNING SESSION</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWAL * LEARNING SESSION *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAW * LEARNING SESSIONS</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAW * LEARNING SESSIONS *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWING * LEARNING SESSIONS</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWING * LEARNING SESSIONS *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWAL * LEARNING SESSIONS</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+<category><pattern>_ WITHDRAWAL * LEARNING SESSIONS *</pattern><template><srai>WITHDRAWING FROM SUGAR LEARNING SESSIONS</srai></template></category>
+
+
+<category><pattern>SUGAR LEARNING SESSION MATERIALS</pattern><template>Learning sessions that include specific learning materials are only provided for participants who attend the session. The materials are provided as a learning aide to learning sessions; they are not designed to stand alone without instruction. </template></category>
+<category><pattern>_ LEARNING SESSION MATERIAL</pattern><template><srai>SUGAR LEARNING SESSION MATERIALS</srai></template></category>
+<category><pattern>_ LEARNING SESSION MATERIAL *</pattern><template><srai>SUGAR LEARNING SESSION MATERIALS</srai></template></category>
+<category><pattern>_ LEARNING SESSION MATERIALS</pattern><template><srai>SUGAR LEARNING SESSION MATERIALS</srai></template></category>
+<category><pattern>_ LEARNING SESSION MATERIALS *</pattern><template><srai>SUGAR LEARNING SESSION MATERIALS</srai></template></category>
+
+
+<category><pattern>ACCESS LEARNING SESSION</pattern><template>You will receive a registration confirmation email from gotowebinar@citrixonline.com. The email will include the learning session title, date and time details, and a JOIN WEBINAR button and phone number with access. Click the JOIN WEBINAR button to join the online </template></category>
+<category><pattern>_ ACCESS * LEARNING SESSION</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS * LEARNING SESSION *</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESSING * LEARNING SESSION</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESSING * LEARNING SESSION *</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS * LEARNING SESSIONS</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS * LEARNING SESSIONS *</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESSING * LEARNING SESSIONS</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESSING * LEARNING SESSIONS *</pattern><template><srai>ACCESS LEARNING SESSION</srai></template></category>
+
+<category><pattern>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</pattern><template>You can submit a case with your name, email and learning session name and date. We will confirm your registration and re-send the email. Sugar University cannot guarantee that you will receive a new confirmation email if your request is submitted within one hour of the learning session start time.
+To submit a case via the Support Portal:
+1.Select Request Type University Support
+2.Enter Session Access Details in the Subject field
+3.In the Description field include the name and date of the learning session you wish to gain details for.
+</template></category>
+<category><pattern>_ LOST * CONFIRMATION * LEARNING SESSION</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ LOST * CONFIRMATION * LEARNING SESSION *</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ MISPLACED * CONFIRMATION * LEARNING SESSION</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ MISPLACED * CONFIRMATION * LEARNING SESSION *</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DO NOT HAVE * CONFIRMATION * LEARNING SESSION</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DO NOT HAVE * CONFIRMATION * LEARNING SESSION *</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DON'T HAVE * CONFIRMATION * LEARNING SESSION</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DON'T HAVE * CONFIRMATION * LEARNING SESSION *</pattern><template><srai>LOST CONFIRMATION EMAIL FOR LEARNING SESSION</srai></template></category>
+
+<category><pattern>SYSTEM REQUIREMENTS FOR LEARNING SESSION</pattern><template>A Windows or Mac computer with a high-speed internet connection and a phone.</template></category>
+<category><pattern>_ SYSTEM REQUIREMENTS * LEARNING SESSION</pattern><template><srai>SYSTEM REQUIREMENTS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SYSTEM REQUIREMENTS * LEARNING SESSION *</pattern><template><srai>SYSTEM REQUIREMENTS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SYSTEM REQUIREMENTS * LEARNING SESSIONS</pattern><template><srai>SYSTEM REQUIREMENTS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SYSTEM REQUIREMENTS * LEARNING SESSIONS *</pattern><template><srai>SYSTEM REQUIREMENTS FOR LEARNING SESSION</srai></template></category>
+
+<category><pattern>ACCESS DETAILS FOR LEARNING SESSION</pattern><template>You will receive a registration confirmation email from gotowebinar@citrixonline.com. The email will include the learning session title, date and time details as well as the attendance URL and phone number.</template></category>
+<category><pattern>_ ACCESS DETAILS * LEARNING SESSION</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS DETAILS * LEARNING SESSION *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DETAILS * ACCESSING * LEARNING SESSION</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DETAILS * ACCESSING * LEARNING SESSION *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS INFORMATION * LEARNING SESSION</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS INFORMATION * LEARNING SESSION *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ INFORMATION * ACCESSING * LEARNING SESSION</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ INFORMATION * ACCESSING * LEARNING SESSION *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS DETAILS * LEARNING SESSIONS</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS DETAILS * LEARNING SESSIONS *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DETAILS * ACCESSING * LEARNING SESSIONS</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ DETAILS * ACCESSING * LEARNING SESSIONS *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS INFORMATION * LEARNING SESSIONS</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ACCESS INFORMATION * LEARNING SESSIONS *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ INFORMATION * ACCESSING * LEARNING SESSIONS</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ INFORMATION * ACCESSING * LEARNING SESSIONS *</pattern><template><srai>ACCESS DETAILS FOR LEARNING SESSION</srai></template></category>
+
+<category><pattern>LEARNING PACK</pattern><template>A Sugar University Learning Pack allows you to purchase a group of Sugar University learning sessions at a discounted price. Each learning pack includes a recommended learning path and Sugar Learning Credits. The learning packs are designed by a Sugar University instructor based on specific roles and the Sugar Learning Credits are used to register for the recommended learning sessions.</template></category>
+<category><pattern>_ LEARNING PACK</pattern><template><srai>LEARNING PACK</srai></template></category>
+<category><pattern>_ LEARNING PACK *</pattern><template><srai>LEARNING PACK</srai></template></category>
+
+<category><pattern>SUGGESTIONS FOR LEARNING SESSION</pattern><template>We would love to have your suggestions for future learning sessions! Please submit a case via the Support Portal:
+1.Select Request Type: University Support
+2.Enter the subject in the Subject field
+3.In the Description field include the details of your suggestions.
+</template></category>
+
+<category><pattern>_ SUGGESTIONS * LEARNING SESSION</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTIONS * LEARNING SESSION *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTION * LEARNING SESSION</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTION * LEARNING SESSION *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGEST * LEARNING SESSION</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGEST * LEARNING SESSION *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ADVICE * LEARNING SESSION</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ADVICE * LEARNING SESSION *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ FEEDBACK * LEARNING SESSION</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ FEEDBACK * LEARNING SESSION *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTIONS * LEARNING SESSIONS</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTIONS * LEARNING SESSIONS *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTION * LEARNING SESSIONS</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGESTION * LEARNING SESSIONS *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGEST * LEARNING SESSIONS</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ SUGGEST * LEARNING SESSIONS *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ADVICE * LEARNING SESSIONS</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ ADVICE * LEARNING SESSIONS *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ FEEDBACK * LEARNING SESSIONS</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+<category><pattern>_ FEEDBACK * LEARNING SESSIONS *</pattern><template><srai>SUGGESTIONS FOR LEARNING SESSION</srai></template></category>
+
+<category><pattern>ADDITIONAL QUESTIONS</pattern><template>For additional questions, please submit a case via the Support Portal:
+1.Select Request Type: University Support
+2.Enter the subject in the Subject field
+3.In the Description field include the details of your question.
+</template></category>
+<category><pattern>_ ADDITIONAL QUESTIONS *</pattern><template><srai>ADDITIONAL QUESTIONS</srai></template></category>
+
+</aiml>
