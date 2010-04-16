@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+
+
+<category><pattern>TECHNICAL SUPPORT LEVELS</pattern><template>There are three levels of support. Standard Support is included with every purchase of Sugar Professional or Sugar Enterprise.
+Standard Support includes web and email support with the ability to submit an unlimited number of support cases.
+Extended Support offers significantly faster response times compared to the standard support, unlimited case management and access through phone service.
+Premium Support offers SugarCRM's highest level of support, including access to our in-house experts 24 x 7 x 365 for Priority 1 issues. Premium Support customers are assigned a support representative as a single point of contact to manage SugarCRM deployments from inception to roll-out to upgrade.
+</template></category>
+<category><pattern>_ LEVELS * TECHNICAL SUPPORT *</pattern><template><srai>TECHNICAL SUPPORT LEVELS</srai></template></category>
+<category><pattern>_ TECHNICAL SUPPORT LEVELS *</pattern><template><srai>TECHNICAL SUPPORT LEVELS</srai></template></category>
+<category><pattern>_ LEVELS * TECH SUPPORT *</pattern><template><srai>TECHNICAL SUPPORT LEVELS</srai></template></category>
+<category><pattern>_ TECH SUPPORT LEVELS *</pattern><template><srai>TECHNICAL SUPPORT LEVELS</srai></template></category>
+
+<category><pattern>UPGRADE TECHNICAL SUPPORT LEVEL</pattern><template>To upgrade your support level, contact the SugarCRM Customer Advocate group:
+Phone: +1 408-792-6872;
+Email: cagroup@sugarcrm.com
+</template></category>
+<category><pattern>_ UPGRADE * TECHNICAL SUPPORT LEVEL </pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE * TECHNICAL SUPPORT LEVEL *</pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE * TECH SUPPORT LEVEL </pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE * TECH SUPPORT LEVEL *</pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE TECHNICAL SUPPORT LEVEL </pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE TECHNICAL SUPPORT LEVEL *</pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE TECH SUPPORT LEVEL </pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+<category><pattern>_ UPGRADE TECH SUPPORT LEVEL *</pattern><template><srai>UPGRADE TECHNICAL SUPPORT LEVEL</srai></template></category>
+
+<category><pattern>CONTACT TECHNICAL SUPPORT</pattern><template>SugarCRM Support will help you with any installation and configuration questions you might have. If you experience any problems, please contact us.
+Step 1 Go to the SugarCRM Support Portal: http://support.sugarcrm.com
+Step 2 Login using your www.sugarcrm.com user name and password.
+Step 3 Click on the Submit a Case link.
+</template></category>
+<category><pattern>_ CONTACT TECHNICAL SUPPORT</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT * TECHNICAL SUPPORT</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT TECHNICAL SUPPORT *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT * TECHNICAL SUPPORT *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT TECH SUPPORT</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT * TECH SUPPORT</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT TECH SUPPORT *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>_ CONTACT * TECH SUPPORT *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>HOW * SUBMIT A CASE</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>HOW * SUBMIT A CASE *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>I * SUBMIT A CASE</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+<category><pattern>I * SUBMIT A CASE *</pattern><template><srai>CONTACT TECHNICAL SUPPORT</srai></template></category>
+
+<category><pattern>SUPPORT PORTAL</pattern><template>Sugar CRM portal is a collection of resources to help you maximize your experiences with Sugar software. It includes features for submitting or viewing a case, access Sugar University, discuss in Sugar forums, view documentation, download options for your purchased software. </template></category>
+<category><pattern>_ SUPPORT PORTAL</pattern><template><srai>SUPPORT PORTAL</srai></template></category>
+<category><pattern>_ SUPPORT PORTAL *</pattern><template><srai>SUPPORT PORTAL</srai></template></category>
+
+
+<category><pattern>SETUP TO SUBMIT A CASE</pattern><template>Only Support Authorized Contacts are allowed to submit support cases to the Sugar Support team.
+Every SugarCRM customer is allowed up to two Support Authorized Contacts, except for customers with Premium Support, which are allowed up to four.
+To set up your Support Authorized Contacts, please send an email to support@sugarcrm.com with the name, phone number, email address and SugarCRM.com userid of the person(s) you wish to be your Support Authorized Contacts.
+</template></category>
+
+<category><pattern>_ SETUP * SUBMIT A CASE</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUBMIT A CASE</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP * SUBMIT A CASE *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUBMIT A CASE *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP * SUPPORT AUTHORIZED CONTACT *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUPPORT AUTHORIZED CONTACT *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP * SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SETUP SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+<category><pattern>_ SET UP SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SETUP TO SUBMIT A CASE</srai></template></category>
+
+<category><pattern>SUPPORT CASE</pattern><template>A support case is how you communicate with the Sugar Support team. Each support case is automatically assigned a unique number and allows Sugar CRM to track all communications around the reported issue.
+A support case usually encompasses one issue or request for help. If you have multiple issues or requests, we ask that you submit a separate case for each issue.
+</template></category>
+<category><pattern>WHAT IS A SUPPORT CASE</pattern><template><srai>SUPPORT CASE</srai></template></category>
+
+<category><pattern>SUPPORT CASE VERSUS BUG REPORT</pattern><template>When in doubt, submit a support case instead of a bug report. SugarCRM support representatives can determine if your support case should result in a bug report, and will gladly file a bug report on your behalf when appropriate. </template></category>
+<category><pattern>_ DIFFERENCE * SUPPORT CASE * BUG REPORT</pattern><template><srai>SUPPORT CASE VERSUS BUG REPORT</srai></template></category>
+<category><pattern>_ DIFFERENCE * SUPPORT CASE * BUG REPORT *</pattern><template><srai>SUPPORT CASE VERSUS BUG REPORT</srai></template></category>
+<category><pattern>_ SUPPORT CASE * BUG REPORT</pattern><template><srai>SUPPORT CASE VERSUS BUG REPORT</srai></template></category>
+<category><pattern>_ SUPPORT CASE * BUG REPORT *</pattern><template><srai>SUPPORT CASE VERSUS BUG REPORT</srai></template></category>
+
+<category><pattern>SUPPORT AUTHORIZED CONTACT</pattern><template>A support authorized contact is an individual designated to work with SugarCRM Support. Authorized contacts will receive notifications of new product releases, and will be granted access to the Support Portal.
+An authorized contact can be a technical systems administrator, or a business owner of the system. An authorized contact should serve as triage for your organization's end users.
+</template></category>
+<category><pattern>WHAT IS SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SUPPORT AUTHORIZED CONTACT</srai></template></category>
+<category><pattern>WHAT ARE SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SUPPORT AUTHORIZED CONTACT</srai></template></category>
+<category><pattern>WHO IS SUPPORT AUTHORIZED CONTACT</pattern><template><srai>SUPPORT AUTHORIZED CONTACT</srai></template></category>
+<category><pattern>WHO ARE SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>SUPPORT AUTHORIZED CONTACT</srai></template></category>
+
+<category><pattern>NUMBER OF SUPPORT AUTHORIZED CONTACTS</pattern><template>Your organization's quantity of support authorized contacts will depend on your support service level.
+Sugar Network: 1 authorized contact
+Standard Support: 2 authorized contacts
+Extended Support: 2 authorized contacts
+Premium Support: 4 authorized contacts
+</template></category>
+<category><pattern>_ NUMBER * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>NUMBER OF SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ NUMBER * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>NUMBER OF SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MANY SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>NUMBER OF SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MANY  * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>NUMBER OF SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+
+<category><pattern>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</pattern><template>Your additional authorized contacts should first create a SugarCRM.com user name.
+Once they have created a SugarCRM.com user name, you can then submit a case through the SugarCRM Support Portal, requesting the additional authorized contacts.
+</template></category>
+<category><pattern>_ ADDITIONAL SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ ADDITIONAL SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ ADDITIONAL * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ ADDITIONAL * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ EXTRA SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ EXTRA SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ EXTRA  * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ EXTRA  * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MORE SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MORE SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MORE  * SUPPORT AUTHORIZED CONTACTS</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+<category><pattern>_ MORE  * SUPPORT AUTHORIZED CONTACTS *</pattern><template><srai>ADDITIONAL SUPPORT AUTHORIZED CONTACTS</srai></template></category>
+
+
+<category><pattern>CREATE NEW SUGAR CRM USER</pattern><template>Register for a new SugarCRM.com account.
+Once you complete the registration form, an email will be sent to you, asking you to activate your account. Only after your account has been activated will you be able to use your SugarCRM.com name.
+If you did not receive an activation email from SugarCRM, please first check your Junk Mail folder.
+If you still cannot locate the activation, please contact our Support organization at support@sugarcrm.com for a SugarCRM.com account activation.
+</template></category>
+<category><pattern>_ CREATE * SUGAR CRM USER</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGAR CRM USER *</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGAR CRM USERNAME</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGAR CRM USERNAME *</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USER</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USER *</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USER</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USER *</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USERNAME</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+<category><pattern>_ CREATE * SUGARCRM USERNAME *</pattern><template><srai>CREATE NEW SUGAR CRM USER</srai></template></category>
+
+</aiml>

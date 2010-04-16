@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+
+<category><pattern>*</pattern><template>Can you be more specific?</template></category>
+
+<category><pattern>SUGAR CRM</pattern><template>Sugar CRM is an open-source software solution vendor which 
+produces Customer Relationship Management System. </template></category>
+<category><pattern>SUGARCRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ ABOUT SUGAR CRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ ABOUT SUGARCRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ NEW * SUGAR CRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ NEW * SUGARCRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ NOVICE * SUGAR CRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>_ NOVICE * SUGARCRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>WHAT IS SUGAR CRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+<category><pattern>WHAT IS SUGARCRM</pattern><template><srai>SUGAR CRM</srai></template></category>
+
+<category><pattern>PURCHASING SUGAR CRM</pattern><template>You are supposed to receive two automated emails after you purchase Sugar CRM. The first automated email contains your invoice regarding your confirmation. The second email contains your download key. Remember that your download key is the license key for your software configuration. </template></category>
+<category><pattern>PURCHASING SUGARCRM</pattern><template><srai>PURCHASING SUGAR CRM</srai></template></category>
+<category><pattern>_ AFTER PURCHASING SUGAR CRM</pattern><template><srai>PURCHASING SUGAR CRM</srai></template></category>
+<category><pattern>_ AFTER PURCHASING SUGARCRM</pattern><template><srai>PURCHASING SUGAR CRM</srai></template></category>
+<category><pattern>_ PURCHASED SUGAR CRM</pattern><template><srai>PURCHASING SUGAR CRM</srai></template></category>
+<category><pattern>_ PURCHASED SUGARCRM</pattern><template><srai>PURCHASING SUGAR CRM</srai></template></category>
+
+<category><pattern>DID NOT RECEIVE EMAILS FROM SUGAR CRM</pattern><template>If you did not receive any confirmation emails from SugarCRM, please first check your Junk Mail folder. Then send an email to estore@sugarcrm.com requesting a copy of your invoice or confirmation email. </template></category>
+<category><pattern>_ DID NOT * EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * EMAILS FROM SUGARCRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY EMAILS FROM SUGARCRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * EMAILS FROM SUGARCRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * ANY EMAILS FROM SUGARCRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY CONFIRMATION EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY CONFIRMATION EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY AUTOMATED EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * ANY AUTOMATED EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * ANY CONFIRMATION EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * ANY CONFIRMATION EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * ANY AUTOMATED EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * ANY AUTOMATED EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * CONFIRMATION EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * CONFIRMATION EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * AUTOMATED EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DID NOT * AUTOMATED EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * CONFIRMATION EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * CONFIRMATION EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * AUTOMATED EMAILS FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+<category><pattern>_ DIDN'T * AUTOMATED EMAIL FROM SUGAR CRM</pattern><template><srai>DID NOT RECEIVE EMAILS FROM SUGAR CRM</srai></template></category>
+
+<category><pattern>LICENSE KEY FOR SUGAR CRM</pattern><template>When you purchase Sugar CRM software, you will receive an email containing your download key. Remember that your download key is the license key for your software configuration. If you did not receive it or may have lost it, Please send an email to estore@sugarcrm.com requesting your copy of download key (license key).</template></category>
+<category><pattern>_ LICENSE KEY FOR SUGAR CRM</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+<category><pattern>_ DOWNLOAD KEY FOR SUGAR CRM</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+<category><pattern>_ LICENSE KEY * SUGAR CRM</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+<category><pattern>_ DOWNLOAD KEY * SUGAR CRM</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+<category><pattern>_ LICENSE KEY * SUGAR CRM *</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+<category><pattern>_ DOWNLOAD KEY * SUGAR CRM *</pattern><template><srai>LICENSE KEY FOR SUGAR CRM</srai></template></category>
+
+<category><pattern>ONDEMAND SYSTEM SETTINGS</pattern><template>The Mail Transfer Agent setting should be set to the SMTP option; once SMTP is selected, you can then fill in the details for your company’s outgoing mail server.
+For more info refer http://www.sugarcrm.com/network/help/ENT/4.5/Administration_Guides/Sugar_Enterprise_Administration_Guide_4.5/Sugar_Enterprise_Administration_Guide_4.5.html
+</template></category>
+<category><pattern>_ ONDEMAND SYSTEM SETTINGS *</pattern><template><srai>ON-DEMAND SYSTEM SETTINGS</srai></template></category>
+<category><pattern>_ ON-DEMAND SYSTEM SETTINGS *</pattern><template><srai>ON-DEMAND SYSTEM SETTINGS</srai></template></category>
+
+<category><pattern>RESET PASSWORD FOR ADMIN USER ON SUGAR ONDEMAND</pattern><template>Submit a support case through http://support.sugarcrm.com/. If you do not yet have access to the Support Portal, please send an email to support@sugarcrm.com. Please be sure to include your Sugar On-Demand URL in your request.</template></category>
+<category><pattern>_ RESET PASSWORD * ADMIN USER * ONDEMAND</pattern><template><srai>RESET PASSWORD FOR ADMIN USER ON SUGAR ONDEMAND</srai></template></category>
+<category><pattern>_ RESET * PASSWORD * ADMIN USER * ONDEMAND</pattern><template><srai>RESET PASSWORD FOR ADMIN USER ON SUGAR ONDEMAND</srai></template></category>
+<category><pattern>_ RESET PASSWORD * ADMIN USER * ONDEMAND *</pattern><template><srai>RESET PASSWORD FOR ADMIN USER ON SUGAR ONDEMAND</srai></template></category>
+<category><pattern>_ RESET * PASSWORD * ADMIN USER * ONDEMAND *</pattern><template><srai>RESET PASSWORD FOR ADMIN USER ON SUGAR ONDEMAND</srai></template></category>
+
+<category><pattern>ONDEMAND SOFTWARE UPDATES</pattern><template>To see if your Sugar On-Demand software is up-to-date, you can visit the Sugar Updates link in your Administration page. If your Sugar On-Demand software is on the current major version, your software will be kept up-to-date with the latest patch version available. Patch updates are usually applied within 3 business days of the patch's release date.</template></category>
+<category><pattern>_ ONDEMAND * UPDATES</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ONDEMAND * UPDATES *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ONDEMAND UPDATES</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ONDEMAND UPDATES *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATE * ONDEMAND</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATE * ONDEMAND *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATES * ONDEMAND</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATES * ONDEMAND *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ONDEMAND * UP TO DATE</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ON-DEMAND * UPDATES</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ON-DEMAND * UPDATES *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ON-DEMAND UPDATES</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ON-DEMAND UPDATES *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATE * ON-DEMAND</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATE * ON-DEMAND *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATES * ON-DEMAND</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ UPDATES * ON-DEMAND *</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+<category><pattern>_ ON-DEMAND * UP TO DATE</pattern><template><srai>ONDEMAND SOFTWARE UPDATES</srai></template></category>
+
+
+<category><pattern>SUGAR PLUGINS</pattern><template>If you are the user within your organization who made the purchase of Sugar products, then you will be able to download Sugar Plug-ins from the SugarCRM Support Portal at http://support.sugarcrm.com/. Only users that are associated to your organization's download key will be able to download the Plug-ins. You can then distribute the Plug-ins to other users in your organization, adhering to your licensed user count.</template></category>
+<category><pattern>_ SUGAR PLUGINS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR PLUGINS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR PLUG-INS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR PLUG-INS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR CRM PLUGINS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR CRM PLUGINS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR CRM PLUG-INS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGAR CRM PLUG-INS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGARCRM PLUGINS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGARCRM PLUGINS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGARCRM PLUG-INS</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+<category><pattern>_ SUGARCRM PLUG-INS *</pattern><template><srai>SUGAR PLUGINS</srai></template></category>
+
+<category><pattern>SUGAR ONSITE INSTALLATION</pattern><template>
+1.Login to Sugar CRM Portal.
+2.Click 'Download Purchased Software' Now link
+3.Click the zip file you want to access
+4.Install your software
+5.Do the basic default configuration such as date, time, email
+6.Create some user accounts for your team
+7.Have your team users download plugins for outlook, word, thunderbird
+8.Have your team users get trained from sugar university.
+</template></category>
+<category><pattern>SUGAR ON-SITE INSTALLATION</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ SUGAR ON-SITE INSTALLATION</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ SUGAR CRM ON-SITE INSTALLATION</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ SUGARCRM ON-SITE INSTALLATION</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALL * ONSITE</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALL * ONSITE *</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALLING * ONSITE</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALLING * ONSITE *</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALL * ON-SITE</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALL * ON-SITE *</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALLING * ON-SITE</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+<category><pattern>_ INSTALLING * ON-SITE *</pattern><template><srai>SUGAR ONSITE INSTALLATION</srai></template></category>
+
+<category><pattern>USER ACCOUNT</pattern><template>To create a new user in your Sugar instance, follow these steps:
+Step 1 Log into Sugar as user with administrator privileges. All Sugar installations when first created have a user named "admin".
+Step 2 Click on the 'Admin' link in the System Links in the top of your screen.
+Step 3 Click on 'User Management'
+Step 4 Click on 'Create User'
+Step 5 Enter the new user information.
+</template></category>
+
+<category><pattern>_ CREATE * USER ACCOUNT</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE * USER ACCOUNT *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING * USER ACCOUNT</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING * USER ACCOUNT *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE USER ACCOUNT</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE USER ACCOUNT *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING USER ACCOUNT</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING USER ACCOUNT *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE * USER ACCOUNTS</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE * USER ACCOUNTS *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING * USER ACCOUNTS</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING * USER ACCOUNTS *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE USER ACCOUNTS</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATE USER ACCOUNTS *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING USER ACCOUNTS</pattern><template><srai>USER ACCOUNT</srai></template></category>
+<category><pattern>_ CREATING USER ACCOUNTS *</pattern><template><srai>USER ACCOUNT</srai></template></category>
+
+<category><pattern>DATA MIGRATION</pattern><template>SugarCRM provides a variety of implementation services including data migration services from a variety of CRM systems including SalesForce. Please contact your sales representative or sales@sugarcrm.com for pricing information. </template></category>
+<category><pattern>_ DATA MIGRATION</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ DATA MIGRATION *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ MIGRATE DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ MIGRATE * DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ MIGRATING DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ MIGRATING * DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+
+<category><pattern>_ DATA TRANSFER</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ DATA TRANSFER *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ TRANSFER DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ TRANSFER * DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ TRANSFERRING DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+<category><pattern>_ TRANSFERRING * DATA *</pattern><template><srai>DATA MIGRATION</srai></template></category>
+
+<category><pattern>DOWNLOAD KEY NOT WORKING</pattern><template>A download key is valid for one year from when it is first issued. Please contact cagroup@sugarcrm.com to renew an expired download key. </template></category>
+<category><pattern>_ DOWNLOAD KEY * NOT WORKING</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ DOWNLOAD KEY * NOT WORKING *</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ LICENSE KEY * NOT WORKING</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ LICENSE KEY * NOT WORKING *</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ PROBLEM * DOWNLOAD KEY</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ PROBLEM * DOWNLOAD KEY *</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ PROBLEM * LICENSE KEY</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+<category><pattern>_ PROBLEM * LICENSE KEY *</pattern><template><srai>DOWNLOAD KEY NOT WORKING</srai></template></category>
+
+<category><pattern>CHANGE ACCOUNT INFORMATION</pattern><template>Submit a support case through the online SugarCRM Support Portal. If you do not yet have access to the Support Portal, please send an email to support@sugarcrm.com. Please be sure to include your company name in your request. </template></category>
+<category><pattern>_ CHANGE ACCOUNT INFORMATION</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * ACCOUNT INFORMATION</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE ACCOUNT INFORMATION *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * ACCOUNT INFORMATION *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE ACCOUNT CREDENTIALS</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * ACCOUNT CREDENTIALS</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE ACCOUNT CREDENTIALS *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * ACCOUNT CREDENTIALS *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE EMAIL</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * EMAIL</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE EMAIL *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * EMAIL *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE PASSWORD</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * PASSWORD</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE PASSWORD *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * PASSWORD *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE CREDENTIALS *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+<category><pattern>_ CHANGE * CREDENTIALS *</pattern><template><srai>CHANGE ACCOUNT INFORMATION</srai></template></category>
+
+<category><pattern>BILLING</pattern><template>For billing and payment questions, please contact the SugarCRM accounting department.
+SugarCRM Inc.
+10050 N. Wolfe Rd., Suite SW2-130
+Cupertino, CA 95014 USA
+Attn: Accounts Receivable
+Phone: +1 408-454-6900
+Fax: +1 408-608-1918 (Accounting Dept. fax number to receive confidential information)
+Email: accounting@sugarcrm.com
+</template></category>
+<category><pattern>_ BILLING *</pattern><template><srai>BILLING</srai></template></category>
+<category><pattern>_ BILLING</pattern><template><srai>BILLING</srai></template></category>
+
+<category><pattern>ORDER RENEW SUBSCRIPTIONS</pattern><template>To order additional subscriptions or renew your existing subscription, contact the Sugar sales department at:
+Phone: +1 408-792-6872
+Email: cagroup@sugarcrm.com
+</template></category>
+<category><pattern>_ ORDER * SUBSCRIPTIONS</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ RENEW * SUBSCRIPTIONS</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ ORDER * SUBSCRIPTION</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ RENEW * SUBSCRIPTION</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ ORDER * SUBSCRIPTIONS *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ RENEW * SUBSCRIPTIONS *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ ORDER * SUBSCRIPTION *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ RENEW * SUBSCRIPTION *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE * SUBSCRIPTION *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE * SUBSCRIPTION</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE * SUBSCRIPTIONS</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE SUBSCRIPTIONS</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE * SUBSCRIPTION *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE * SUBSCRIPTIONS *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ MORE SUBSCRIPTIONS *</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+<category><pattern>_ ORDERING MORE SUBSCRIPTIONS OR RENEWING MY SUBSCRIPTION</pattern><template><srai>ORDER RENEW SUBSCRIPTIONS</srai></template></category>
+
+</aiml>
+
+
